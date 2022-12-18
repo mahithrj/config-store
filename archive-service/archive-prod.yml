@@ -1,2 +1,5 @@
+spring:
+  application:
+    name: archive
 #server:
   #port: 9192
