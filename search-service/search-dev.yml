@@ -1,8 +1,15 @@
 spring:
-  elasticsearch:
-    uris: http://localhost:9200
-    # username: elastic
-    # password: ${ELASTIC_SEARCH_PW}
+  # elasticsearch:
+  #   uris: http://localhost:9200
+  #   username: elastic
+  #   password: ${ELASTIC_SEARCH_PW}
+
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: localhost:9200
+      repositories:
+        enabled: true
 
 member:
   rent:
