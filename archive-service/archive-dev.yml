@@ -10,6 +10,10 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: update
 
+eureka:
+  instance:
+    hostname: localhost
+
 member:
   rent:
     min: 8

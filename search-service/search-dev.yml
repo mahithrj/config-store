@@ -11,6 +11,10 @@ spring:
       repositories:
         enabled: true
 
+eureka:
+  instance:
+    hostname: localhost
+
 member:
   rent:
     min: 8

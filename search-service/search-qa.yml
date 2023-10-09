@@ -6,6 +6,10 @@ spring:
       repositories:
         enabled: true
 
+eureka:
+  instance:
+    hostname: auradocsv4.southindia.cloudapp.azure.com
+
 member:
   rent:
     min: 10
