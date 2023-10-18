@@ -12,7 +12,7 @@ spring:
 
 eureka:
   instance:
-    hostname: v4.auradocs.com/discovery
+    hostname: v4.auradocs.com/discovery/
 
 member:
   rent:
