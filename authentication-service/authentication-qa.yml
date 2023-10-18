@@ -1,6 +1,7 @@
 server:
+  port: 9191
   servlet:
-    context-path: /auth
+    context-path: /api
 
 spring:
   datasource:
