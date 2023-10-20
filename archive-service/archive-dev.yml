@@ -12,7 +12,7 @@ spring:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: localhost:${server.port}/discovery/eureka
 
 member:
   rent:
