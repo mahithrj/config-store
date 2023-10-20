@@ -15,9 +15,9 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: update
 
-eureka:
-  instance:
-    hostname: v4.auradocs.com/discovery/
+# eureka:
+#   instance:
+#     hostname: v4.auradocs.com/discovery/
 
 member:
   rent:

@@ -6,9 +6,9 @@ spring:
       repositories:
         enabled: true
 
-eureka:
-  instance:
-    hostname: v4.auradocs.com/discovery/
+# eureka:
+#   instance:
+#     hostname: v4.auradocs.com/discovery/
 
 member:
   rent:
