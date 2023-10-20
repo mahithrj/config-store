@@ -10,9 +10,9 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: update
 
-eureka:
-  instance:
-    hostname: localhost:${server.port}/discovery/eureka
+# eureka:
+#   instance:
+#     hostname: localhost:${server.port}/discovery/eureka
 
 member:
   rent:
