@@ -10,9 +10,14 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: update
 
-# eureka:
-#   instance:
-#     hostname: v4.auradocs.com/discovery/
+ eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka-server/eureka}
+  instance:
+     preferIpAddress: true
 
 member:
   rent:
