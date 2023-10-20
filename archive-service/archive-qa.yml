@@ -10,7 +10,7 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: update
 
- eureka:
+eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
