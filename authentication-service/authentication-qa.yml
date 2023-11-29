@@ -2,6 +2,9 @@ server:
   port: 9191
   servlet:
     context-path: /api
+  ribbon:
+    eureka: 
+      enabled: true
 
 spring:
   datasource:
