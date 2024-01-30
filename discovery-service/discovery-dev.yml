@@ -1,0 +1,17 @@
+spring:
+  config: 
+    activate:
+      on-profile: dev
+
+server: 
+  servlet: 
+    context-path: /
+    
+eureka:
+  environment: DEV
+  instance: 
+    hostname: localhost
+  client:
+    serviceUrl: 
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
+  
