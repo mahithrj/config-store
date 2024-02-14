@@ -5,6 +5,17 @@ spring:
       cluster-nodes: localhost:9200
       repositories:
         enabled: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${spring.mail.username}
+    password: ${spring.mail.password}
+    properties:
+      mail: 
+        smtp: 
+          auth: true
+          starttls:
+            enable: true
 
 eureka:
   client:
