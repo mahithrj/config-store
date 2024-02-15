@@ -6,10 +6,10 @@ spring:
       repositories:
         enabled: true
   mail:
-    host: smtp.gmail.com
-    port: 587
-    username: ${spring.mail.username}
-    password: ${spring.mail.password}
+    host: 74.55.132.178
+    # port: 587 / 465
+    username: auradocs@auradot.com
+    password: auradot@123
     properties:
       mail: 
         smtp: 
