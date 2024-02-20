@@ -44,3 +44,6 @@ vehicle:
   default:
     model: cross over
 duration: all
+
+site: 
+  url: https://v4.auradocs.com/api
