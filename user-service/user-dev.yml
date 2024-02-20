@@ -16,8 +16,8 @@ eureka:
     fetch-registry: true
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
-    healthcheck:
-      enabled: true
+    # healthcheck:
+    #   enabled: true
   instance:
     preferIpAddress: true
     instance-id: ${spring.application.name}-${random.int}
