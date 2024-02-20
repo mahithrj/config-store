@@ -9,6 +9,17 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: darshanamadushan1212@gmail.com
+    password: qedjovjvmhrklyvv
+    properties:
+      mail: 
+        smtp: 
+          auth: true
+          starttls:
+            enable: true
 
 eureka:
   client:

@@ -9,6 +9,17 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: update
+  mail:
+    host: 74.55.132.178
+    # port: 587 / 465
+    username: auradocs@auradot.com
+    password: auradot@123
+    properties:
+      mail: 
+        smtp: 
+          auth: true
+          starttls:
+            enable: true
 
 eureka:
   client:

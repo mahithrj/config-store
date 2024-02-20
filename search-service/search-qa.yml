@@ -5,17 +5,6 @@ spring:
       cluster-nodes: localhost:9200
       repositories:
         enabled: true
-  mail:
-    host: 74.55.132.178
-    # port: 587 / 465
-    username: auradocs@auradot.com
-    password: auradot@123
-    properties:
-      mail: 
-        smtp: 
-          auth: true
-          starttls:
-            enable: true
 
 eureka:
   client:
