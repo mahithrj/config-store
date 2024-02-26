@@ -45,5 +45,6 @@ vehicle:
     model: cross over
 duration: all
 
-site:
-  url : http://localhost:9191
+site: 
+  file-share:
+    url: http://localhost:9191/auth-image/share-doc/view/
