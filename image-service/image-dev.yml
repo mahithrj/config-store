@@ -47,4 +47,4 @@ duration: all
 
 site: 
   file-share:
-    url: http://localhost:9191/auth-image/share-doc/view/
+    url: http://localhost:9191/share-doc/view/
