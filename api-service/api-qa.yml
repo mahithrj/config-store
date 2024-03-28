@@ -24,3 +24,7 @@ eureka:
     prefer-ip-address: false
     instance-id: ${spring.application.name}-${random.int}
     # hostname: localhost
+
+openapi:
+  service:
+    url: https://v4.auradocs.com/api

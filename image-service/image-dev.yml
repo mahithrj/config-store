@@ -48,3 +48,7 @@ duration: all
 site: 
   file-share:
     url: http://localhost:9191/share-doc/view/
+
+openapi:
+  service:
+    url: http://localhost:9191

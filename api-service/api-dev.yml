@@ -20,3 +20,7 @@ eureka:
     preferIpAddress: true
     instance-id: ${spring.application.name}-${random.int}
     # hostname: localhost
+
+openapi:
+  service:
+    url: http://localhost:9191

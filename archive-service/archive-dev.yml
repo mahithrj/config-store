@@ -33,3 +33,7 @@ vehicle:
   default:
     model: cross over
 duration: all
+
+openapi:
+  service:
+    url: http://localhost:9191
