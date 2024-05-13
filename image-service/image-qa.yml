@@ -10,7 +10,7 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: update
   mail:
-    host: 74.125.45.109
+    host: mail.auradot.com #74.125.45.109
     port: 25
     username: auradot@auradot.com
     password: auradot@123
