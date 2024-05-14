@@ -17,4 +17,6 @@ eureka:
   client:
     serviceUrl: 
       defaultZone: https://${eureka.instance.hostname}/${server.servlet.context-path}/eureka
+    registerWithEureka: false
+    fetchRegistry: false
   
