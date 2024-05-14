@@ -8,8 +8,8 @@ spring:
     location: classpath:banner.txt
     
 eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
+  # client:
+    # register-with-eureka: false
+    # fetch-registry: false
   datacenter: Colombo-SriLanka
   renewalPercentThreshold: 0.85
