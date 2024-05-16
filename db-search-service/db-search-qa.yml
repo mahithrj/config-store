@@ -23,6 +23,17 @@ eureka:
     instance-id: ${spring.application.name}-${random.int}
     # hostname: localhost
 
+member:
+  rent:
+    min: 10
+    max: 33
+  price:
+    discount: 3
+vehicle:
+  default:
+    model: cross over
+duration: all
+
 openapi:
   service:
     url: https://v4.auradocs.com/api
