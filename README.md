@@ -9,6 +9,7 @@ The Configuration server which deals with all the configurations stuff within mi
 - Create 3 files naming `dev`, `qa` and `prod`.
   <span style="font-weight: bold; font-size: 15px;">The naming convention is considerable as it is required to give exact service name that you gave in the relavent services' name `spring.application.name`</span>
   ex: _`<service-name>-dev.yml` , `<service-name>-qa.yml` , `<service-name>-prod.yml`_
+- Put Eureka configs `eureka.client.**` which is created within other `.yml` files and customize it.
 
 ### Further help
 
