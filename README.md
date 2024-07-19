@@ -6,9 +6,11 @@ The Configuration server which deals with all the configurations stuff within mi
 ### How to contribute
 
 - Create a directory naming the service that you are going to integrate
-- Create 3 files naming `dev`, `qa` and `prod`.
+- Create 3 files naming `dev`, `qa` and `prod`. **Required**
   <span style="font-weight: bold; font-size: 15px;">The naming convention is considerable as it is required to give exact service name that you gave in the relavent services' name `spring.application.name`</span>
   ex: _`<service-name>-dev.yml` , `<service-name>-qa.yml` , `<service-name>-prod.yml`_
+  - If you want to create envs other than that, you need to specify the `.yml` file as this. `<service-name>-<env-name>.yml`
+    ex: discovery-user.yml
 - Put Eureka configs `eureka.client.**` which is created within other `.yml` files and customize it.
 
 ### Further help
